@@ -1,0 +1,19 @@
+*{
+    background-color: beige;
+}
+
+#capitalize{
+    text-transform: capitalize;
+}
+
+#uppercase{
+    text-transform: uppercase;
+}
+
+#lowercase{
+    text-transform: lowercase;
+}
+
+#none{
+    text-transform: none;
+}
