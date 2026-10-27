@@ -1,0 +1,53 @@
+.box{
+    margin: 2rem;
+    height: 150px;
+    width: 150px;
+    background-color: beige;
+    border: 5px solid black;
+    animation-name: changeColor;
+    animation-duration: 4s;
+    /* animation-delay: 3s; */
+    animation-iteration-count: infinite;
+    /* animation-timing-function: ease; */
+    /* animation-timing-function: ease-in; */
+    /* animation-timing-function: ease-out; */
+    /* animation-timing-function: ease-in-out; */
+    /* animation-timing-function: linear; */
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+    animation-direction: normal;
+}
+
+
+/* @keyframes changeColor{ */
+    /* from{
+        background-color: purple; */
+        /* transform: translateX(0px) translateY(0px); */
+        /* transform: translate(0px, 0px); */
+        /* transform: translateX(0px);
+    } */
+    /* to{ */
+        /* background-color: white; */
+        /* transform: translateX(500px) translateY(500px); */
+        /* transform: translateX(500px) scale(1.2); */
+        /* border-radius: 50%; */
+        /* transform: translateX(500px) skewX(-25deg); */
+    /* } */
+/* } */
+
+@keyframes changeColor{
+    0%{
+        transform: translateX(0px) translateY(0px);
+    }
+    25%{
+        transform: translateX(300px) translateY(0px);
+    }
+    50%{
+        transform: translateX(300px) translateY(300px);
+    }
+    75%{
+        transform: translateX(0px) translateY(300px);
+    }
+    
+}
+
+/* transform -- translateX, translateY, rotate, scale, skew */
