@@ -3,7 +3,7 @@
 // Getting an element
 // querySelector
 let h1Element = document.querySelector("h1")
-let btn = document.getElementById("btn")
+// let btn = document.getElementById("btn")
 // console.log(h1Element)
 let h2Element = document.querySelector(".h2class")
 // console.log(h2Element)
@@ -33,7 +33,26 @@ console.log(h1Element.innerText)
 
 
 // console.log(btn)
+// let h1Element = document.querySelector("h1")
+let btn = document.getElementById("btn")
+let passwordInput = document.getElementById("text")
 
 btn.addEventListener("click", () => {
-    h1Element.innerText = "I am learning JS"
+    if(passwordInput.type == "text"){
+        passwordInput.type = "password"
+        btn.innerText = "Show"
+    }else if(passwordInput.type == "password"){
+        passwordInput.type = "text"
+        btn.innerText = "Hide"
+    }
 })
+
+
+
+
+
+
+// console.log(passwordInput.type)
+// btn.addEventListener("click", () => {
+//     h1Element.innerText = "I am learning JS"
+// })
