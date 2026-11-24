@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Style Playground</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h2>Style Studio</h2>
+      <span>DOM Manipulation Practice</span>
+    </header>
+
+    <main class="container">
+      <section class="intro">
+        <h1>Interactive Style Playground</h1>
+        <p>Experiment with styles using JavaScript DOM.</p>
+      </section>
+
+      <section class="playground">
+        <div class="preview-section">
+          <h3>Live Preview</h3>
+
+          <div class="profile-card" id="profileCard">
+            <div class="avatar">SK</div>
+
+            <h2 id="profileName">Shrey Khandelwal</h2>
+
+            <p class="designation">Full Stack Developer</p>
+
+            <p id="description">
+              Passionate about building modern web applications and exploring
+              new technologies.
+            </p>
+
+            <button class="follow-btn">Follow Me</button>
+          </div>
+        </div>
+
+        <div class="controls-section">
+          <h3>Customize Your Card</h3>
+
+          <div class="control-group">
+            <label>Background Color</label>
+
+            <div class="color-options">
+              <button class="color red"></button>
+              <button class="color blue"></button>
+              <button class="color green"></button>
+              <button class="color purple"></button>
+            </div>
+          </div>
+
+          <div class="control-group">
+            <label>Font Size</label>
+
+            <div class="button-group">
+              <button id="increaseFont">A+</button>
+              <button id="decreaseFont">A-</button>
+            </div>
+          </div>
+
+          <div class="control-group">
+            <label>Card Size</label>
+
+            <div class="button-group">
+              <button id="increaseSize">Increase</button>
+              <button id="decreaseSize">Decrease</button>
+            </div>
+          </div>
+
+          <div class="control-group">
+            <label>Card Actions</label>
+
+            <div class="button-group">
+              <button id="toggleDescription">Hide Description</button>
+
+              <button id="toggleTheme">Dark Mode</button>
+            </div>
+          </div>
+
+          <div class="control-group">
+            <label>Theme Options</label>
+
+            <div class="button-group">
+              <button id="changeTheme">Change Theme</button>
+
+              <button id="reset">Reset All</button>
+            </div>
+          </div>
+
+          <div class="control-group">
+            <label>Current Card Dimensions</label>
+
+            <div class="dimensions">
+              <p>Width: <span id="widthValue">-</span></p>
+              <p>Height: <span id="heightValue">-</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

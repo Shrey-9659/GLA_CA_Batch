@@ -1,0 +1,59 @@
+Level 1 – Basic DOM manipulation
+Easy
+Task 1: Background Color Changer
+- Clicking the red button should change the profile card background to red.
+- Clicking blue should change it to blue.
+- Similarly implement green and purple.
+- Use element.style or CSS classes.
+
+Task 2: Font Size Controller
+- A+ should increase the profile name font size by 2px.
+- A- should decrease it by 2px.
+- Font size should never go below 12px or above 50px.
+
+Task 3: Card Resizing
+- Increase button increases card width by 20px.
+- Decrease button decreases card width by 20px.
+- Maintain a minimum width of 200px.
+
+
+Level 2 – classList methods
+Intermediate
+Task 4: Hide and Show Description
+- Clicking the button hides the profile description.
+- Clicking again displays it.
+- Change button text between "Hide Description" and "Show Description".
+- Use classList.toggle().
+
+Task 5: Dark Mode
+- Clicking Dark Mode should change the entire page appearance.
+- Clicking again should restore the light theme.
+- Use classList.toggle().
+
+Task 6: Theme Replacement
+- Create three additional CSS classes: theme-orange, theme-pink, and theme-dark.
+- Clicking Change Theme should switch between these themes.
+- Use classList.replace() and classList.contains() to manage the current theme.
+
+
+Level 3 – Thinking and logic
+Challenge
+Task 7: Live Dimensions
+- Display the actual width of the profile card.
+- Display the actual height of the profile card.
+- Update dimensions whenever the card size changes.
+- Use getComputedStyle().
+
+Task 8: Reset Everything
+- Restore the original card background.
+- Restore the original font size.
+- Restore the original card width.
+- Restore the description visibility.
+- Remove all additional theme classes.
+- Reset the page to light mode.
+
+Task 9: Follow Button
+- Clicking Follow Me should change its text to Following.
+- Change its background color.
+- Clicking again should restore Follow Me.
+- Use classList.toggle() and classList.contains().
